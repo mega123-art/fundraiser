@@ -12,8 +12,8 @@ fundraiser = "HXUDRhP4rdGeNeSXCCg8XeEhcQxyqbqK35aEzeM5wHxN"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
-wallet = "~/.config/solana/id.json"
+cluster = "devnet"
+wallet="./id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
